@@ -1,0 +1,143 @@
+@font-face {
+  font-family: yellowtail;
+  src: url(https://fonts.googleapis.com/css?family=Yellowtail);
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  margin: 2vh auto;
+  position: relative;
+  height: 8vh;
+  width: 95%;
+}
+
+header > img {
+  display: inline;
+  position: absolute;
+  top: 25%;
+}
+
+header > ul {
+  position: absolute;
+  list-style: none;
+  top: -5px;
+  left: 2vw;
+}
+
+header > ul > li:first-child {
+  font-family: yellowtail;
+  font-size: 2.2em;
+}
+
+header > ul > li:last-child {
+  font-size: 0.6em;
+}
+
+header > nav {
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 0;
+}
+
+header > nav > ul {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+
+header > nav > ul > li {
+  display: inline;
+}
+
+div {
+  height: 15px;
+  width: 95%;
+  margin: auto;
+  background-image: url('./img/hr-img.png');
+  background-repeat: repeat;
+}
+
+main {
+  margin: 2vh auto;
+  position: relative;
+  width: 95%;
+}
+
+main > section:first-child {
+  margin-top: 120vh;
+  position: relative;
+  height: 8vh;
+  margin: 0px;
+}
+
+main > section:first-child > ul {
+  margin: auto;
+  position: absolute;
+  list-style: none;
+  top: -5px;
+  left: -40px;
+}
+
+main > section:first-child > ul > li:first-child {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.2em;
+}
+
+main > section:first-child > ul > li:last-child {
+  color: darkgrey;
+  font-size: 0.8em;
+}
+
+main > section:first-child > article > ul {
+  float: right;
+  list-style: none;
+  padding: 5px;
+  display: inline;
+}
+
+main > section:first-child > article > ul > li {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: darkgray;
+  display: inline;
+}
+
+main > section > img {
+  width: 100%;
+}
+
+main > section:nth-child(3) > ul {
+  padding: 0px;
+  list-style: none;
+}
+
+main > section:nth-child(4) > ul {
+  padding: 0px;
+  list-style: none;
+  width: 50%;
+  background-image: url('./img/list-bg.png');
+}
+
+main > section:nth-child(4) > ul:first-child {
+  float: left;
+}
+
+main > section:nth-child(4) > ul:last-child {
+  float: right;
+}
+
+div:last-child {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
