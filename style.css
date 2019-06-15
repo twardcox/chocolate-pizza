@@ -1,11 +1,11 @@
 #container {
-  background-color: black;
+ 
   height: 2000px;
   width: 100%;
 }
 
 #header-div {
-  background-color: red;
+  
   height:150px;
   width:100%;
 
@@ -13,105 +13,178 @@
 }
 
 #delicious {
-  background-color: #e9ffc0;
+  
   height:100px;
   width:100%;
   position: relative;
 }
 
 #logo {
-  background-color: green;
   height:75px;
-  width:100px;
+  width:500px;
+  position: relative;
 
+}
+ul{
+  list-style: none;
+}
+#par-delicous{
+  position: absolute;
+  top: 7px;
+  left: 100px;
+  
+}
+
+#par-best{
+  position: absolute;
+  top: 30px;
+  left: 100px;
 }
 
 #social-media {
-  background-color: yellow;
+  
   height:50px;
   width:300px;
   position: absolute;
   top: 20%;
   right: 0;
 }
+.hr-div{
+ background-image: url('https://raw.githubusercontent.com/codefellows/seattle-201d57/master/class-10/lab-a/lab-assets/hr-img.png');
+ background-repeat: repeat;
+ height: 20px;
+}
 
 #body {
-  background-color: pink;
+  
   height:1500px;
   width:100%;
 }
 
 #title-bar{
-  background-color: #3f00ff;
+  
   height:150px;
   width:100%;
   position: relative;
 }
 #title{
-   background-color: #00ff08;
+  
   height:75px;
   width:35%;
   position:absolute;
   bottom: 0;
-
+  margin-bottom: 0px;
+}
+#title h1{
+  margin-bottom: 0px;
+}
+#title p{
+  font-size: 10px;
+  margin-top:0px;
 }
 #print-button{
-   background-color: #ff00c8;
+   
   height:50px;
-  width:50px;
+  width:80px;
   position:absolute;
   bottom: 0;
   right: 0;
 }
+#ul-print{
+  padding-left: 0px;
+}
+#ul-print img{
+  height: 15px;
+  width: 15px;
+}
+
+#ul-print li{
+  font-size:15px;
+  display: inline;
+}
 
 #cake-img {
-  background-color: cyan;
+  
   height:500px;
   width:100%;
 }
+#cake-img img{
+  height: 500px;
+  width: 100%
+}
 
 #main-paragraph {
-  background-color: magenta;
-  height:300px;
-  width:100%
+  
+  height:250px;
+  width:100%;
+  
+}
+#main-paragraph p{
+  text-indent: 50px;
 }
 
 #reciept-img {
-  background-color: #74ca24;
+  
   height:250px;
   width:100%;
+  background-image:url("https://raw.githubusercontent.com/codefellows/seattle-201d57/master/class-10/lab-a/lab-assets/list-bg.png");
+  background-repeat: no-repeat
+
+  
 }
 
+
 #ul-chckbx {
-  background-color: gray;
+  
   height:200px;
-  width:75%
+  width:100%;
+  position: relative;
+  
+}
+#box1{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+#box2{
+  position: absolute;
+  top:0px;
+  right: 0;
 }
 
 #author {
-  background-color: blue;
+  
   height:200px;
   width:100%;
   position: relative;
 }
 
 #author-img {
-  background-color: violet;
-  height:150px;
-  width:150px;
+  
+  height:100px;
+  width:500px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+#aurthor-img li{
+  position: absolute;
+  top:0;
+  left:0;
 }
 
 #author-stats {
-  background-color: yellowgreen;
+  
   height:150px;
   width:60%;
   position:absolute;
   top: 0;
   left: 150px;
+  
 }
 
 #share-button {
-  background-color: burlywood;
+  
   height:100px;
   width:200px;
   position:absolute;
@@ -120,14 +193,14 @@
 }
 
 #footer {
-  background-color: blanchedalmond;
+  
   height:250px;
   width:100%;
   position:relative;
 }
 
 #page-num {
-  background-color: rebeccapurple;
+  
   height:50px;
   width:50px;
   position:absolute;
@@ -136,7 +209,7 @@
 }
 
 #legal-text {
-  background-color: orange;
+  
   height:150px;
   width:450px;
   position:absolute;
