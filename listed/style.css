@@ -71,6 +71,7 @@ main {
   margin: 2vh auto;
   position: relative;
   width: 95%;
+  height: 1550px;
 }
 
 main > section:first-child {
@@ -140,4 +141,70 @@ div:last-child {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+footer {
+  margin: 2vh auto;
+  position: relative;
+  height: 23vh;
+  width: 95%;
+}
+
+footer > section > article:first-child > img {
+  display: inline;
+  position: absolute;
+  top: 0;
+}
+
+footer > section > article:first-child > ul {
+  position: absolute;
+  list-style: none;
+  top: -5px;
+  left: 2vw;
+}
+
+footer > section > article:first-child > ul > li:first-child {
+  font-family: serif;
+  font-size: 2.2em;
+}
+
+footer > section > article:first-child > ul > li:last-child {
+  font-size: 1.2em;
+  color: darkgray;
+}
+
+footer > section > article:first-child > button {
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 0;
+}
+
+footer > section > article:first-child > button > ul {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+
+footer > section > article:first-child > button > ul > li {
+  display: inline;
+}
+
+footer > section > article:last-child > img {
+  position: absolute;
+  top: 100px;
+  left: 47%;
+}
+
+footer > section:last-child > article:last-child > ul {
+  position: absolute;
+  list-style: none;
+  bottom: 0;
+  left: 40%;
+}
+
+footer > section:last-child > article:last-child > ul > li {
+  font-family: serif;
+  text-align: center;
+  color: darkgray;
 }
