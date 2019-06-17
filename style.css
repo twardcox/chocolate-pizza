@@ -1,218 +1,210 @@
-#container {
- 
-  height: 2000px;
-  width: 100%;
+@font-face {
+  font-family: yellowtail;
+  src: url(https://fonts.googleapis.com/css?family=Yellowtail);
+  font-weight: bold;
 }
 
-#header-div {
-  
-  height:150px;
-  width:100%;
-
-
+* {
+  box-sizing: border-box;
 }
 
-#delicious {
-  
-  height:100px;
-  width:100%;
+body {
+  width: 95%;
+  margin: auto;
+}
+
+header {
+  margin: 2vh auto;
   position: relative;
+  height: 8vh;
+  width: 95%;
 }
 
-#logo {
-  height:75px;
-  width:500px;
-  position: relative;
-
+header > img {
+  display: inline;
+  position: absolute;
+  top: 25%;
 }
-ul{
+
+header > ul {
+  position: absolute;
   list-style: none;
-}
-#par-delicous{
-  position: absolute;
-  top: 7px;
-  left: 100px;
-  
+  top: -5px;
+  left: 2vw;
 }
 
-#par-best{
-  position: absolute;
-  top: 30px;
-  left: 100px;
+header > ul > li:first-child {
+  font-family: yellowtail;
+  font-size: 2.2em;
 }
 
-#social-media {
-  
-  height:50px;
-  width:300px;
-  position: absolute;
-  top: 20%;
-  right: 0;
-}
-.hr-div{
- background-image: url('https://raw.githubusercontent.com/codefellows/seattle-201d57/master/class-10/lab-a/lab-assets/hr-img.png');
- background-repeat: repeat;
- height: 20px;
+header > ul > li:last-child {
+  font-size: 0.6em;
 }
 
-#body {
-  
-  height:1500px;
-  width:100%;
-}
-
-#title-bar{
-  
-  height:150px;
-  width:100%;
+header > nav {
+  float: right;
   position: relative;
-}
-#title{
-  
-  height:75px;
-  width:35%;
-  position:absolute;
-  bottom: 0;
-  margin-bottom: 0px;
-}
-#title h1{
-  margin-bottom: 0px;
-}
-#title p{
-  font-size: 10px;
-  margin-top:0px;
-}
-#print-button{
-   
-  height:50px;
-  width:80px;
-  position:absolute;
-  bottom: 0;
+  top: 10px;
   right: 0;
 }
-#ul-print{
-  padding-left: 0px;
-}
-#ul-print img{
-  height: 15px;
-  width: 15px;
+
+header > nav > ul {
+  float: left;
+  list-style: none;
+  padding: 5px;
 }
 
-#ul-print li{
-  font-size:15px;
+header > nav > ul > li {
   display: inline;
 }
 
-#cake-img {
-  
-  height:500px;
-  width:100%;
-}
-#cake-img img{
-  height: 500px;
-  width: 100%
+div {
+  height: 15px;
+  width: 95%;
+  margin: auto;
+  background-image: url('./img/hr-img.png');
+  background-repeat: repeat;
 }
 
-#main-paragraph {
-  
-  height:250px;
-  width:100%;
-  
-}
-#main-paragraph p{
-  text-indent: 50px;
-}
-
-#reciept-img {
-  
-  height:250px;
-  width:100%;
-  background-image:url("https://raw.githubusercontent.com/codefellows/seattle-201d57/master/class-10/lab-a/lab-assets/list-bg.png");
-  background-repeat: no-repeat
-
-  
-}
-
-
-#ul-chckbx {
-  
-  height:200px;
-  width:100%;
+main {
+  margin: 2vh auto;
   position: relative;
-  
+  width: 95%;
+  height: 1550px;
 }
-#box1{
+
+main > section:first-child {
+  margin-top: 120vh;
+  position: relative;
+  height: 8vh;
+  margin: 0px;
+}
+
+main > section:first-child > ul {
+  margin: auto;
   position: absolute;
-  top:0;
+  list-style: none;
+  top: -5px;
+  left: -40px;
+}
+
+main > section:first-child > ul > li:first-child {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.2em;
+}
+
+main > section:first-child > ul > li:last-child {
+  color: darkgrey;
+  font-size: 0.8em;
+}
+
+main > section:first-child > article > ul {
+  float: right;
+  list-style: none;
+  padding: 5px;
+  display: inline;
+}
+
+main > section:first-child > article > ul > li {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: darkgray;
+  display: inline;
+}
+
+main > section > img {
+  width: 100%;
+}
+
+main > section:nth-child(3) > ul {
+  padding: 0px;
+  list-style: none;
+}
+
+main > section:nth-child(4) > ul {
+  padding: 0px;
+  list-style: none;
+  width: 50%;
+  background-image: url('./img/list-bg.png');
+}
+
+main > section:nth-child(4) > ul:first-child {
+  float: left;
+}
+
+main > section:nth-child(4) > ul:last-child {
+  float: right;
+}
+
+div:last-child {
+  position: absolute;
   left: 0;
-}
-#box2{
-  position: absolute;
-  top:0px;
-  right: 0;
+  bottom: 0;
 }
 
-#author {
-  
-  height:200px;
-  width:100%;
+footer {
+  margin: 2vh auto;
   position: relative;
+  height: 23vh;
+  width: 95%;
 }
 
-#author-img {
-  
-  height:100px;
-  width:500px;
+footer > section > article:first-child > img {
+  display: inline;
   position: absolute;
-  top:0;
-  left:0;
-}
-#aurthor-img li{
-  position: absolute;
-  top:0;
-  left:0;
-}
-
-#author-stats {
-  
-  height:150px;
-  width:60%;
-  position:absolute;
   top: 0;
-  left: 150px;
-  
 }
 
-#share-button {
-  
-  height:100px;
-  width:200px;
-  position:absolute;
-  top:10%;
+footer > section > article:first-child > ul {
+  position: absolute;
+  list-style: none;
+  top: -5px;
+  left: 2vw;
+}
+
+footer > section > article:first-child > ul > li:first-child {
+  font-family: serif;
+  font-size: 2.2em;
+}
+
+footer > section > article:first-child > ul > li:last-child {
+  font-size: 1.2em;
+  color: darkgray;
+}
+
+footer > section > article:first-child > button {
+  float: right;
+  position: relative;
+  top: 10px;
   right: 0;
 }
 
-#footer {
-  
-  height:250px;
-  width:100%;
-  position:relative;
+footer > section > article:first-child > button > ul {
+  float: left;
+  list-style: none;
+  padding: 5px;
 }
 
-#page-num {
-  
-  height:50px;
-  width:50px;
-  position:absolute;
-  top:0;
-  right: 50%;
+footer > section > article:first-child > button > ul > li {
+  display: inline;
 }
 
-#legal-text {
-  
-  height:150px;
-  width:450px;
-  position:absolute;
-  top:25%;
-  right:35%;
+footer > section > article:last-child > img {
+  position: absolute;
+  top: 100px;
+  left: 47%;
+}
+
+footer > section:last-child > article:last-child > ul {
+  position: absolute;
+  list-style: none;
+  bottom: 0;
+  left: 40%;
+}
+
+footer > section:last-child > article:last-child > ul > li {
+  font-family: serif;
+  text-align: center;
+  color: darkgray;
 }
